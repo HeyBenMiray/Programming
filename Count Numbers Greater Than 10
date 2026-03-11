@@ -1,0 +1,18 @@
+//10'dan büyük sayıları sayma
+
+
+int sayac = 0;
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine(i + ". sayıyı giriniz:");
+    int girilenSayi = Convert.ToInt32(Console.ReadLine());
+
+    if (girilenSayi > 10)
+
+    {
+        sayac++;
+    }
+}
+
+Console.WriteLine("10'dan büyük sayı adedi:" + sayac);
+
