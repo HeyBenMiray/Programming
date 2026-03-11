@@ -1,0 +1,13 @@
+//Sayıların karesini alma
+
+
+int sayac = 0;
+
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i + ". Sayıyı giriniz.");
+    int girilenSayi = Convert.ToInt32(Console.ReadLine());
+    int karesi = girilenSayi * girilenSayi;
+    Console.WriteLine(karesi);
+}
+
