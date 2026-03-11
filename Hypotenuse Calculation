@@ -1,0 +1,12 @@
+//Hipotenüs Hesaplama
+
+double[] kenarlar = new double[2];
+for (int i = 0; i < 2; i++)
+{
+    Console.WriteLine("Üçgenin " + (i + 1) + " . dik kenarını giriniz.");
+    kenarlar[i] = Convert.ToDouble(Console.ReadLine());
+}
+
+double hipotenus = Math.Sqrt(Math.Pow(kenarlar[0], 2) + Math.Pow(kenarlar[1], 2));
+Console.WriteLine("---------------------------------");
+Console.WriteLine("Hipotenüs: " + hipotenus);
