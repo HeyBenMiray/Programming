@@ -1,0 +1,10 @@
+//Yakıt Tüketimi Hesaplama
+
+Console.WriteLine("Alınan yolu kilometre cinsinden giriniz.");
+double yol = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Kilometre başına tüketilen yakıt miktarını giriniz.");
+double tüketim = Convert.ToDouble(Console.ReadLine());
+
+double total = (yol) * tüketim;
+Console.WriteLine("Alınan yola göre tüketilen toplam yakıt miktarı:" +total);
