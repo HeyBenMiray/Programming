@@ -1,0 +1,22 @@
+//Üçgen Kontrolü
+
+double[] acilar = new Double[3];
+
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine("Üçgenin " + (i + 1) + " . açısını giriniz.");
+    acilar[i] = Convert.ToDouble(Console.ReadLine());
+}
+
+double toplam = acilar[0] + acilar[1]  + acilar[2];
+
+if (toplam == 180)
+{
+    Console.WriteLine("-----------------------");
+    Console.WriteLine("Geçerli bir üçgen.");
+}
+else if (toplam != 180)
+{
+    Console.WriteLine("-----------------------");
+    Console.WriteLine("Geçerli bir üçgen değil.");
+}
