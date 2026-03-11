@@ -1,0 +1,8 @@
+//100'llük Notu 5'lik nota dönüştürme
+
+
+Console.WriteLine("Notunuzu giriniz.");
+double not = Convert.ToDouble(Console.ReadLine());
+
+double not5 = not / 20;
+Console.WriteLine("Notunuz: " + not5);
